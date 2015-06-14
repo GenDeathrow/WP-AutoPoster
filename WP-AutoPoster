@@ -1,0 +1,7 @@
+curl \
+ -H 'authorization: 7071d61f61b2' \
+ --data-urlencode 'title=Hello World' \
+ --data-urlencode 'content=Hello. I am a test post. I was created by the API' \
+ --data-urlencode 'tags=tests' \
+ --data-urlencode 'categories=API' \
+ 'https://public-api.wordpress.com/rest/v1.1/sites/gendeathrow.wordpress.com/posts/new/'
